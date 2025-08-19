@@ -73,12 +73,8 @@ Texto...
 \renewcommand\listfigurename{\hfill\normalfont\bfseries LISTA DE FIGURAS\hfill}
 \listoffigures
 
-
-%%%%%%%%%%%%%%%%%%%%%%PSEUDOCODIGO%%%%%%%%%%%%%%%%%
-%\clearpage
-%\renewcommand\lstlistlistingname{\hfill\normalfont\bfseries LISTA DE PSEUDOCÓDIGOS\hfill}
-%%\renewcommand{\lstlistingname}{Pseudocódigo}
-%\lstlistoflistings
+\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumenesp.pdf}
+\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumening.pdf}
 
 \newpage
 \section*{GLOSARIO}
@@ -661,7 +657,7 @@ Al analizar los registros de ejemplares y sus estados, el equipo de trabajo not�
 Se decidió junto con el cliente trabajar con los estados ''ACTIVO'', ''INACTIVO'', ''DESCARTADO'', ''TRASLADADO'', y el resto de estados agruparlos como ''EN REVISIÓN''. 
 
 
-\subsection{Diseño de las funcionalidades básicas del sistema }
+\subsection{Tercera fase: Diseño de las funcionalidades básicas del sistema }
 
 \subsubsection{Cantidad de libros por estado y total: }
 
@@ -1058,7 +1054,7 @@ Por último, para el \textbf{módulo de analítica}, se plantean la Tendencia ba
 
 \vspace{0.3cm}
 %%%%%%%%%%%%%%TERCERA ENTREGA
-\subsection{Diseño del prototipo}
+\subsection{Cuarta fase: Diseño del prototipo}
 
 A partir del análisis del problema y el diseño de las funcionalidades preliminar, se realiza el diseño del prototipo. Esta fase es supervisada por jefatura de biblioteca.
 
@@ -1074,13 +1070,13 @@ Una vez establecidas las historias de usuario, se realizó el documento de reque
 Se presentó al cliente un diseño inicial del sistema. Este diseño fue aprobado, sin embargo, durante la fase de desarrollo sufrió distintos cambios, a medida que iba siendo supervisado por el director del trabajo de grado y el cliente. En en apéndice \ref{APÉNDICE:B} se encuentra el diseño de este. Este se alinea con lo planteado en el segundo objetivo del proyecto. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\subsection{Desarrollo del prototipo e implementación}
+\subsection{Quinta fase: Desarrollo del prototipo e implementación}
 
 La fase de desarrollo está enmarcada por el marco de trabajo Scrum. Se realizaron tres Sprints de trabajo. 
 En el apéndice \ref{APÉNDICE:C} se encuentra la documentación correspondiente a la estructura y comportamiento del sistema desarrollado.
 
  
- \subsubsection{Primer Sprint: }
+ \subsubsection[Primer Sprint]{Primer Sprint: }
  El objetivo del primer Sprint corresponde a la fase de desarrollo del módulo de KPIs, tanto sus funcionalidades como el apartado gráfico. Las historias comprometidas
  para este sprint corresponden a las relacionadas al módulo de KPIs, y la historia designada para escoger un rango de fechas definido por el usuario.
  A continuación, se presenta una gráfica con los puntos comprometidos y la deuda técnica. 
@@ -1108,7 +1104,7 @@ La figura \ref{fig:S1-1} corresponde a una muestra de la primera iteración del 
 por parte del cliente. Estas recomendaciones se plantearon para el siguiente sprint. 
 
 
-\subsubsection{Segundo Sprint: }
+\subsubsection[Segundo Sprint]{Segundo Sprint: }
 
  Para el segundo sprint se planteó como objetivo el desarrollo del módulo de reportes, y se asumió la deuda técnica del sprint anterior. Por lo tanto, 
  la historias comprometidas corresponden al módulo de reportes. La siguiente gráfica presenta los puntos comprometidos para el sprint.
@@ -1136,7 +1132,7 @@ según la retroalimentación del cliente, dando como resultado la segunda iterac
 En el sprint review, el cliente realizó la debida retroalimentación, haciendo énfasis en la necesidad de usar la gama
 de colores institucionales. Estas observaciones se consideraron de alta prioridad.
 
-\subsubsection{Tercer Sprint: }
+\subsubsection[Tercer Sprint]{Tercer Sprint: }
 
 En el tercer sprint se comprometieron las historias relacionadas al módulo de analítica, realizar la función de añadir 
 gráficas a favoritos y aplicar la paleta de colores institucionales al software. Se obtuvo la siguiente gráfica de puntos comprometidos:
@@ -1149,14 +1145,17 @@ gráficas a favoritos y aplicar la paleta de colores institucionales al software
 	\label{fig:S3-1} 
 \end{figure}
 
-\subsubsection{Implementación}
+\subsubsection[Implementación]{Implementación y despliegue: }
 
-El aplicativo se desplegó en una máquina virtual de sistema operativo Red Hat 9 dentro de la infraestructura de la universidad Pontificia Bolivariana.
+Una vez el prototipo final fue aprobado por el cliente, el aplicativo se desplegó en una máquina virtual de sistema operativo Red Hat 9 dentro de la infraestructura de la universidad Pontificia Bolivariana.
 Para el despliegue se empleó un archivo tipo \textit{bash}. El departamento de CTIC de la institución ejecutó el archivo correspondiente después de una revisión
 de seguridad de este. El departamento de CTIC limitó el acceso al aplicativo, permitiendo solo tráfico que provenga de las redes LAN institucionales. 
 
 \vspace{0.3cm}
-En el apéndice \ref{APÉNDICE:D} se encuentra adjunto pruebas del aplicativo desplegado en el dominio \textit{sabib.bucaramanga.upb.edu.co}, demostración de sus funcionalidades y una prueba de conectividad realizada a los puertos 3000 (el cual corresponde al servidor del \textit{backend}) y 443 (el cual corresponde al servidor del \textit{frontend})
+En el apéndice \ref{APÉNDICE:D} se encuentra adjunto pruebas del aplicativo desplegado en el dominio \textit{sabib.bucaramanga.upb.edu.co}, demostración de sus funcionalidades y una prueba de conectividad realizada a los puertos 3000 (el cual corresponde al 
+servidor del \textit{backend}) y 443 (el cual corresponde al servidor del \textit{frontend}). Por otro lado,
+en el apéndice \ref{APÉNDICE:E} se encuentra la carta de entrega, firmada por los 
+integrantes del equipo y jefatura de biblioteca.
 
 
 
@@ -1167,7 +1166,7 @@ En el apéndice \ref{APÉNDICE:D} se encuentra adjunto pruebas del aplicativo de
   \item Las reuniones semanales con el cliente fueron claves para mantener el foco durante la planeación y desarrollo del proyecto, permitiendo la priorización de tareas según las necesidades del usuario final.
   \item El diseño de artefactos como los middlewares, y la utilización de interfaces como express router sirvieron para la reutilización de código, agilizando el desarrollo del proyecto y permitiendo cumplir con el cronograma planteado.
   \item El uso del marco de trabajo Scrum al momento del desarrollo permitió la adaptación del prototipo por medio de ciclos iterativos, incorporando las observaciones realizadas por el cliente en cada revisión y agregando las funcionalidades correspondientes a cada módulo comprometido. 
-  \item La adaptación de una metodología para el desarrollo de dashboards  permitió la organización del proyecto en cinco etapas, definiendo cada una de estas con actividades puntuales y metas medibles, dando como resultado un proyecto estructurado y entregables que se alinean a estas etapas y los objetivos planteados.
+  \item La adaptación de una metodología para el desarrollo de dashboards  permitió la organización del proyecto en cinco fases, definiendo cada una de estas con actividades puntuales y metas medibles, dando como resultado un proyecto estructurado y entregables que se alinean a estas etapas y los objetivos planteados.
 
 
 \end{itemize}
@@ -1238,6 +1237,11 @@ A continuación, en las siguientes páginas, se encuentra el aplicativo final y 
 \includepdf[pages=-, fitpaper]{img/PDF/RESULTADOS-SOFTWARE.pdf}
 
 
+%%%%%%%%%%%%%%%%%%CARTA
+\raggedright\textit{\textbf{APÉNDICE E} CARTA DE ENTREGA}
+\label{APÉNDICE:E}
 
+A continuación, se encuentra la carta de entrega del proyecto. 
 
+\includepdf[pages=-, fitpaper]{img/PDF/Carta-entrega.pdf}
 \end{document}
