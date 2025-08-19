@@ -1164,13 +1164,16 @@ El resultado del software se encuentra en el apéndice \ref{}.
 % Recomendaciones
 \newpage
 \section{RECOMENDACIONES}
-%%CENTRALIZAR LA AUTENTICACIÓN EN LA SECCIONAL.
-%%CENTRAILZAR ALEJANDRIA CON SABIB
-%%NORMALIZACION DE LOS ESTADOS DEL INVENTARIO DE LOS LIBROS DE BIBLIOTECA EN LA BASE DE DATOS
-%%NORMALIZACIÓN DE LA BASE DATOS (REMOVER TABLAS NO USADAS)
-%%EN EL CASO DE QUE SE REALICE LA MIGRACIÓN DE LA BASE DE DATOS, SE RECOMIENDA ACTUALIZAR LOS QUERIES DEL BACK YA QUE ESTOS ESTAN ADAPTADOS PARA MYSQL 5
-%%SE RECOMIENDA LEER LA DOCUMENTACIÓN DEL PROYECTO EN CASO DE RETOMARLO PARA EXPANDIRLO. PARA ESTAR FAMILIARIZADOS
-%%  AL MOMENTO DE DESPLEGAR PROYECTOS EN LA INFRAESTRUCTURA DE LA UNIVERSIDAD, SE RECOMIENDA REALIZAR UN ARCHIVO .SH. SE DEJA UN EJEMPLO DE ARCHIVO EN LOS ENTREGABLES DEL PROYECTO  
+Dentro de las recomendaciones que se realizan a partir del proyecto, se encuentran las siguientes:
+\begin{itemize}
+  \item Leer la documentación del proyecto en caso de retomarlo con el propósito de expandirlo, para que las decisiones que se tomen sean informadas, se mantenga coherencia con la arquitectura implementada y se eviten inconvenientes que puedan surgir por falta de familiarización con el sistema.
+  \item Si se decide realizar cambios en el sistema, al momento de desplegar este proyecto en la infraestructura de la universidad, se recomienda diseñar un archivo bash, el cual permita automatizar el proceso de instalación de dependencias y la configuración del entorno. Se deja un ejemplo de archivo en los entregables del proyecto, con el fin de que sirva como guía para futuras implementaciones.
+  \item Centralizar la autenticación para los distintos sistemas propios de la universidad, debido a que, en tal caso de que se realicen acciones no previstas, se tendrían que realizar múltiples actualizaciones a los sistemas que se encuentren en producción, lo que podría generar inconsistencia, aumentar el riesgo de errores y generar problemas de escalabilidad.
+  \item Integrar el sistema de biblioteca Alejandría, junto con el sistema SABIB, con el fin de que el usuario pueda acceder a los servicios de ambos sistemas con una sola autenticación, buscando la centralización.
+  \item Debido a que dentro de la base de datos actual no se encuentran normalizados los estados de los libros en el inventario, se recomienda que se realice la implementación de una tabla que los especifique, con el fin de evitar inconsistencias a la hora de realizar consultas, mejorando la calidad de los datos almacenados.
+  \item Remover las tablas que no se encuentren en uso dentro de la base de datos, para mejorar la mantenibilidad y legibilidad de los datos almacenados.
+  \item En caso de realizar una migración de la base de datos, se recomienda actualizar los queries del backend, ya que estos están adaptados para MySQL 5 y podrían presentar problemas de compatibilidad y rendimiento con versiones más recientes.
+\end{itemize}
 
 \newpage
 \renewcommand\refname{REFERENCIAS}
