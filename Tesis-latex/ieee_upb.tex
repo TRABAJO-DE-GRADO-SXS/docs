@@ -1071,14 +1071,14 @@ Las historias de usuario definidas se encuentran dentro del APÉNDICE \ref{APÉN
 Una vez establecidas las historias de usuario, se realizó el documento de requerimientos de software, el cual se encuentra adjunto en el APÉNDICE \ref{APÉNDICE:a}. El documento fue revisado por el director ded proyecto de grado, y aprobado por jefatura de biblioteca, cumpliendo el primer objetivo planteado para el proyecto. 
 
 \subsubsection{Diseño inicial UX del sistema: }
-Se presentó al cliente un diseño inicial del sistema. Este diseño fue aprobado, sin embargo, durante la fase de desarrollo sufrió distintos cambios, a medida que iba siendo supervisado por el director del trabajo de grado y el cliente. En en apéndice \ref{APÉNDICE:b} se encuentra el diseño de este. Este se alinea con lo planteado en el segundo objetivo del proyecto. 
+Se presentó al cliente un diseño inicial del sistema. Este diseño fue aprobado, sin embargo, durante la fase de desarrollo sufrió distintos cambios, a medida que iba siendo supervisado por el director del trabajo de grado y el cliente. En en apéndice \ref{APÉNDICE:B} se encuentra el diseño de este. Este se alinea con lo planteado en el segundo objetivo del proyecto. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \subsection{Desarrollo del prototipo e implementación}
 
-La fase de desarrollo está enmarcada por el marco de trabajo Scrum. Se realizaron tres Sprints de trabajo.
+La fase de desarrollo está enmarcada por el marco de trabajo Scrum. Se realizaron tres Sprints de trabajo. 
+En el apéndice \ref{APÉNDICE:C} se encuentra la documentación correspondiente a la estructura y comportamiento del sistema desarrollado.
 
-, y para el tercero se comprometió el módulo de analítica junto con la funcionalidad de seleccionar gráficas favoritas.
  
  \subsubsection{Primer Sprint: }
  El objetivo del primer Sprint corresponde a la fase de desarrollo del módulo de KPIs, tanto sus funcionalidades como el apartado gráfico. Las historias comprometidas
@@ -1149,29 +1149,41 @@ gráficas a favoritos y aplicar la paleta de colores institucionales al software
 	\label{fig:S3-1} 
 \end{figure}
 
-El resultado del software se encuentra en el apéndice \ref{}.
+\subsubsection{Implementación}
 
-%%%%%%%%%%%
+El aplicativo se desplegó en una máquina virtual de sistema operativo Red Hat 9 dentro de la infraestructura de la universidad Pontificia Bolivariana.
+Para el despliegue se empleó un archivo tipo \textit{bash}. El departamento de CTIC de la institución ejecutó el archivo correspondiente después de una revisión
+de seguridad de este. El departamento de CTIC limitó el acceso al aplicativo, permitiendo solo tráfico que provenga de las redes LAN institucionales. 
 
-\section{DISCUSIÓN}
+\vspace{0.3cm}
+En el apéndice \ref{APÉNDICE:D} se encuentra adjunto pruebas del aplicativo desplegado en el dominio \textit{sabib.bucaramanga.upb.edu.co}, demostración de sus funcionalidades y una prueba de conectividad realizada a los puertos 3000 (el cual corresponde al servidor del \textit{backend}) y 443 (el cual corresponde al servidor del \textit{frontend})
 
-%%AUTENTICACIÓN LO HICIMOS Y EXPUSIMOS UNA INTERFAZ PARA SU POSTERIOR USO EN OTROS PROYECTOS 
+
 
 % Conclusiones
 \newpage
 \section{CONCLUSIONES}
+\begin{itemize}
+  \item Las reuniones semanales con el cliente fueron claves para mantener el foco durante la planeación y desarrollo del proyecto, permitiendo la priorización de tareas según las necesidades del usuario final.
+  \item El diseño de artefactos como los middlewares, y la utilización de interfaces como express router sirvieron para la reutilización de código, agilizando el desarrollo del proyecto y permitiendo cumplir con el cronograma planteado.
+  \item El uso del marco de trabajo Scrum al momento del desarrollo permitió la adaptación del prototipo por medio de ciclos iterativos, incorporando las observaciones realizadas por el cliente en cada revisión y agregando las funcionalidades correspondientes a cada módulo comprometido. 
+  \item La adaptación de una metodología para el desarrollo de dashboards  permitió la organización del proyecto en cinco etapas, definiendo cada una de estas con actividades puntuales y metas medibles, dando como resultado un proyecto estructurado y entregables que se alinean a estas etapas y los objetivos planteados.
 
+
+\end{itemize}
 % Recomendaciones
 \newpage
 \section{RECOMENDACIONES}
-%%CENTRALIZAR LA AUTENTICACIÓN EN LA SECCIONAL.
-%%CENTRAILZAR ALEJANDRIA CON SABIB
-%%NORMALIZACION DE LOS ESTADOS DEL INVENTARIO DE LOS LIBROS DE BIBLIOTECA EN LA BASE DE DATOS
-%%NORMALIZACIÓN DE LA BASE DATOS (REMOVER TABLAS NO USADAS)
-%%EN EL CASO DE QUE SE REALICE LA MIGRACIÓN DE LA BASE DE DATOS, SE RECOMIENDA ACTUALIZAR LOS QUERIES DEL BACK YA QUE ESTOS ESTAN ADAPTADOS PARA MYSQL 5
-%%SE RECOMIENDA LEER LA DOCUMENTACIÓN DEL PROYECTO EN CASO DE RETOMARLO PARA EXPANDIRLO. PARA ESTAR FAMILIARIZADOS
-%%  AL MOMENTO DE DESPLEGAR PROYECTOS EN LA INFRAESTRUCTURA DE LA UNIVERSIDAD, SE RECOMIENDA REALIZAR UN ARCHIVO .SH. SE DEJA UN EJEMPLO DE ARCHIVO EN LOS ENTREGABLES DEL PROYECTO  
-
+Dentro de las recomendaciones que se realizan a partir del proyecto, se encuentran las siguientes:
+\begin{itemize}
+  \item Leer la documentación del proyecto en caso de retomarlo con el propósito de expandirlo, para que las decisiones que se tomen sean informadas, se mantenga coherencia con la arquitectura implementada y se eviten inconvenientes que puedan surgir por falta de familiarización con el sistema.
+  \item Si se decide realizar cambios en el sistema, al momento de desplegar este proyecto en la infraestructura de la universidad, se recomienda diseñar un archivo bash, el cual permita automatizar el proceso de instalación de dependencias y la configuración del entorno. Se deja un ejemplo de archivo en los entregables del proyecto, con el fin de que sirva como guía para futuras implementaciones.
+  \item Centralizar la autenticación para los distintos sistemas propios de la universidad, debido a que, en tal caso de que se realicen acciones no previstas, se tendrían que realizar múltiples actualizaciones a los sistemas que se encuentren en producción, lo que podría generar inconsistencia, aumentar el riesgo de errores y generar problemas de escalabilidad.
+  \item Integrar el sistema de biblioteca Alejandría, junto con el sistema SABIB, con el fin de que el usuario pueda acceder a los servicios de ambos sistemas con una sola autenticación, buscando la centralización.
+  \item Debido a que dentro de la base de datos actual no se encuentran normalizados los estados de los libros en el inventario, se recomienda que se realice la implementación de una tabla que los especifique, con el fin de evitar inconsistencias a la hora de realizar consultas, mejorando la calidad de los datos almacenados.
+  \item Remover las tablas que no se encuentren en uso dentro de la base de datos, para mejorar la mantenibilidad y legibilidad de los datos almacenados.
+  \item En caso de realizar una migración de la base de datos, se recomienda actualizar los queries del backend, ya que estos están adaptados para MySQL 5 y podrían presentar problemas de compatibilidad y rendimiento con versiones más recientes.
+\end{itemize}
 \newpage
 \renewcommand\refname{REFERENCIAS}
 
@@ -1189,6 +1201,7 @@ El resultado del software se encuentra en el apéndice \ref{}.
 \end{center}
 \appendix
 
+%%%%%%%%%%%%%APENDICE A
 \raggedright\textit{\textbf{APÉNDICE A} RESULTADOS DEL PRIMER OBJETIVO}
 \label{APÉNDICE:a}
 
@@ -1198,20 +1211,32 @@ A continuación, en las siguientes páginas, se encuentran los documentos que co
 \includepdf[pages=-, fitpaper]{img/PDF/ESP_REQ_FINAL_OBJ1.pdf}
 
 
-
+%%%%%%%%%%%%%APENDICE B
 \raggedright\textit{\textbf{APÉNDICE B} RESULTADOS DEL SEGUNDO OBJETIVO}
-\label{APÉNDICE:b}
+\label{APÉNDICE:B}
 
 A continuación, en las siguientes páginas, se encuentra el diseño de la interfaz de usuario, basándose en los requerimientos propuestos. 
 
 \includepdf[pages=-, fitpaper]{img/PDF/UX_DESIGN_OBJ2.pdf}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%APENDICE C
+\raggedright\textit{\textbf{APÉNDICE C} RESULTADOS DEL TERCER OBJETIVO}
+\label{APÉNDICE:C}
+
+En las siguientes páginas se encuentra la documentación referente a la estructura y comportamiento
+del aplicativo.  
+
+\includepdf[pages=-, fitpaper]{img/PDF/ESP_ARQ.pdf}
+
+%%%%%%%%%%%%%APENDICE D
 \raggedright\textit{\textbf{APÉNDICE D} RESULTADOS DEL CUARTO OBJETIVO}
-\label{APÉNDICE:b}
+\label{APÉNDICE:D}
 
 A continuación, en las siguientes páginas, se encuentra el aplicativo final y una prueba de conectividad a los servidores donde se encuentra alojado, siguiendo lo planteado en la fase de planeación del proyecto, y las recomendaciones realizadas por los \textit{Stakeholders}. 
 
 \includepdf[pages=-, fitpaper]{img/PDF/RESULTADOS-SOFTWARE.pdf}
+
+
 
 
 \end{document}

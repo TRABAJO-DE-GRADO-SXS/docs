@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ieee_upb"] 1755580282.14469 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1755580288.45645 0
+["bibtex ieee_upb"] 1755582772.36657 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1755582851.39614 0
   "./bibliography.bib" 1755567804 14352 fbfe6b0a26f9a4799ade328ad4d6e845 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ieee_upb.aux" 1755580287 19163 da554be5bf7f1c218f42930ef48c8023 "pdflatex"
+  "ieee_upb.aux" 1755582850 19243 5921215e5ed4a34d17679b5054651751 "pdflatex"
   (generated)
   "ieee_upb.bbl"
   "ieee_upb.blg"
   (rewritten before read)
-["pdflatex"] 1755580282.45541 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1755580288.4574 0
+["pdflatex"] 1755582844.48981 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1755582851.39682 0
   "C:/Users/Salis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755553745 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Salis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741374134 24225045 d15fcb033e839de986165c8859d0c485 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -164,19 +164,20 @@
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1755580274 79250 33e30e6729de7f9b107b643d8a9f2794 ""
-  "ieee_upb.aux" 1755580287 19163 da554be5bf7f1c218f42930ef48c8023 "pdflatex"
-  "ieee_upb.bbl" 1755580282 10084 c06ab5f9b6b161c277b410cb0cc0d099 "bibtex ieee_upb"
+  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1755582843 82916 f310fb24d5f71e3f96d67d704b1a69b4 ""
+  "ieee_upb.aux" 1755582850 19243 5921215e5ed4a34d17679b5054651751 "pdflatex"
+  "ieee_upb.bbl" 1755582772 10084 c06ab5f9b6b161c277b410cb0cc0d099 "bibtex ieee_upb"
   "ieee_upb.cls" 1755567804 9122 0e7d41389157464721c40829c9f4749a ""
-  "ieee_upb.lof" 1755580287 1566 87fe8a54f80c948b4d8bb2a7f4f6a61b "pdflatex"
-  "ieee_upb.lot" 1755580287 347 b0fc023dca11141522bc83e75b18cf52 "pdflatex"
-  "ieee_upb.out" 1755580287 16112 c891881a990abd88e5b762864c2cd1ae "pdflatex"
-  "ieee_upb.tex" 1755580274 79250 33e30e6729de7f9b107b643d8a9f2794 ""
-  "ieee_upb.toc" 1755580287 7782 c212a20740d9867d663836b890104488 "pdflatex"
+  "ieee_upb.lof" 1755582850 1566 87fe8a54f80c948b4d8bb2a7f4f6a61b "pdflatex"
+  "ieee_upb.lot" 1755582850 347 b0fc023dca11141522bc83e75b18cf52 "pdflatex"
+  "ieee_upb.out" 1755582850 16160 eff7d1137cc8230462f1d04025e47ed5 "pdflatex"
+  "ieee_upb.tex" 1755582843 82916 f310fb24d5f71e3f96d67d704b1a69b4 ""
+  "ieee_upb.toc" 1755582850 7800 5ea8b7436ab2db8b95dabc5a1e51bc6a "pdflatex"
   "img/Cronograma-ajustado-2.png" 1755567804 25908 f3d2fc797a8dd3143643144ad082a585 ""
   "img/Diagramas/dominio.png" 1755567804 71232 843353b54297a327fb29e3288a00040b ""
   "img/Diagramas/entidad-relacion.png" 1755567804 116258 a235540166c53a865b051c5a60c0faa6 ""
   "img/Metodología-hariyaki.png" 1755567804 126239 a2511706e8422cedf7150c4ee63b5493 ""
+  "img/PDF/ESP_ARQ.pdf" 1755580551 1482882 b37c9a14cae961c3808d7f5c7ec6f649 ""
   "img/PDF/ESP_REQ_FINAL_OBJ1.pdf" 1755567804 1235846 76ca982ac886b3bef858337390f51921 ""
   "img/PDF/RESULTADOS-SOFTWARE.pdf" 1755579917 6307306 a5fbe9262cf4e8186b05c961d0d61714 ""
   "img/PDF/UX_DESIGN_OBJ2.pdf" 1755567804 308994 391961fb7421d8e45d129ba8b21d3081 ""
