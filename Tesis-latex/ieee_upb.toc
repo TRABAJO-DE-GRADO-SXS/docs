@@ -72,7 +72,13 @@
 \contentsline {subsubsection}{\numberline {1}Planteamiento de historias de usuario: }{43}{subsubsection.9.4.1}%
 \contentsline {subsubsection}{\numberline {2}Planteamiento de requerimientos del sistema: }{44}{subsubsection.9.4.2}%
 \contentsline {subsubsection}{\numberline {3}Diseño inicial UX del sistema: }{44}{subsubsection.9.4.3}%
-\contentsline {subsection}{\numberline {E}Desarrollo del prototipo.}{44}{subsection.9.5}%
-\contentsline {section}{REFERENCIAS}{48}{subsection.9.5}%
-\contentsline {section}{APÉNDICES}{49}{subsection.9.5}%
+\contentsline {subsection}{\numberline {E}Desarrollo del prototipo e implementación}{44}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {1}Primer Sprint: }{44}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {2}Segundo Sprint: }{45}{subsubsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {3}Tercer Sprint: }{46}{subsubsection.9.5.3}%
+\contentsline {section}{\numberline {X}DISCUSIÓN}{46}{section.10}%
+\contentsline {section}{\numberline {XI}CONCLUSIONES}{47}{section.11}%
+\contentsline {section}{\numberline {XII}RECOMENDACIONES}{48}{section.12}%
+\contentsline {section}{REFERENCIAS}{52}{section.12}%
+\contentsline {section}{APÉNDICES}{53}{section.12}%
 \contentsfinish 
