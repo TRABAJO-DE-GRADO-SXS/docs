@@ -73,8 +73,7 @@ Texto...
 \renewcommand\listfigurename{\hfill\normalfont\bfseries LISTA DE FIGURAS\hfill}
 \listoffigures
 
-\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumenesp.pdf}
-\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumening.pdf}
+
 
 \newpage
 \section*{GLOSARIO}
@@ -93,7 +92,7 @@ Texto...
 \textbf{ISO: } International Organization for Standardization.
 
 \vspace{0.1cm}
-\textbf{KPI: } Key Performance Indicator (Indicador Clave de Desempeño). 
+\textbf{KPIs: } Key Performance Indicator (Indicador Clave de Desempeño). 
 
 \vspace{0.1cm}
 \textbf{SNIES: } Sistema Nacional de Información de la Educación Superior (Colombia). 
@@ -118,7 +117,8 @@ Texto...
 % visit: https://herramientasbib.bucaramanga.upb.edu.co/resumening
 
 %%%%INYECTAR PDF
-
+\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumenesp.pdf}
+\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumening.pdf}
 %\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumenesp.pdf}
 %\includepdf[pages=-, pagecommand={\thispagestyle{fancy}}]{pdf_resumes/resumening.pdf}
 
@@ -392,59 +392,46 @@ Su visión es:
 \newpage
 \section{METODOLOGÍA}
 \vspace{0.3cm}
-El desarrollo del proyecto se basa en metodologías ágiles para el desarrollo de software, aplicando el marco de trabajo \textit{Scrum}. De estas metodologías se extraen elementos fundamentales como la planificación de sprints, la gestión del \textit{Product Backlog}, la revisión periódica del prototipo por parte del cliente y la adaptación continua a lo largo del proceso.
-La metodología se divide en las siguientes cinco fases, en las que se detallan las actividades concretas que garantizan el cumplimiento de los objetivos del proyecto:
-
-\subsection{Fase 1: Planificación}
-\vspace{0.3cm}
-En esta fase se definen los elementos iniciales y se establece la planificación general del proyecto. Se aborda la situación-problema identificando las necesidades del cliente mediante reuniones y entrevistas, se revisa la literatura relevante y se definen los objetivos del proyecto. Además, se establece la metodología de desarrollo basada en \textit{Scrum}, se crea el backlog priorizado, se elabora un cronograma para 4 semanas, se estima el presupuesto y se desarrolla el anteproyecto.
-
-\subsection{Fase 2: Diseño}
-En esta fase se diseña la solución, especificando las funcionalidades asignadas. Se identifican los casos de uso y se analizan los posibles flujos de interacción para que sean incorporados en el diseño del sistema.Esto corresponde a diseñar la interfaz de usuario y definir las funcionalidades relacionadas con la generación de reportes y la creación de un \textit{dashboard} interactivo.
-
-
-\subsection{Fase 3: Desarrollo}
-
-Se implementan las funcionalidades definidas en la fase de diseño utilizando tecnologías orientadas al desarrollo web, por medio de patrones de diseño.Aparte, se contempla el desarrollo de interfaces y componentes interactivos con frameworks oriendatos a diseño web. También se plantea la documentación y revisión de código para la mantenibilidad y escalabilidad del sistema. 
-
-\subsection{Fase 4: Pruebas del Software}
-
-En esta fase se valida, mediante pruebas, que el software cumpla con el flujo esperado. Se lleva a cabo una revisión por parte del cliente y, en función de su retroalimentación y de la evaluación de los requerimientos acordados, se retorna a la fase de diseño para realizar nuevas iteraciones del prototipo. Asimismo, se realizan reuniones de revisión y retrospectivas al final de cada sprint para identificar oportunidades de mejora continua.
-
-
-\subsection{Fase 5: Integración y Despliegue en Producción}
-
-Una vez que el software desarrollado cumpla con los requerimientos acordados con el cliente, se procederá a integrarlo en el entorno de producción de la Biblioteca Benedicto XVI.
+El desarrollo del proyecto se basa en metodologías ágiles para el desarrollo de software, aplicando el marco de trabajo \textit{Scrum}, el ciclo de vida del software y metodología para el desarrollo de dashboards. De estas metodologías se extraen elementos fundamentales como la planificación de sprints, la gestión del \textit{Product Backlog}, la revisión periódica del prototipo por parte del cliente y la adaptación continua a lo largo del proceso.
 
 
 \subsection{Integración del Marco de Trabajo \textit{Scrum}}
 
-El marco de trabajo \textit{Scrum} se implementa a lo largo del proyecto, estructurándose en ciclos iterativos (sprints) de dos semanas aproximadamente. La integración se define de la siguiente manera:
-
 \begin{itemize}
- \item \textbf{Planificación y Estimación:} En la reunión de planificación de cada sprint se organizan las actividades, se definen los objetivos del sprint y se seleccionan las tareas del \textit{Product Backlog} a abordar. Se estiman los tiempos y recursos necesarios para cada tarea, facilitando una planificación detallada. \cite{Schwaber2004,Cohn2005}.
- \item \textbf{Implementación:} Durante el sprint se desarrolla el proyecto, se establece la infraestructura tecnológica y se transforman los diseños en código funcional. Esta fase iterativa permite la entrega continua de incrementos de software operativos \cite{Sutherland2014}.
- \item \textbf{Revisión y Retrospectiva:} Al final de cada sprint se realiza una reunión de revisión en la que se evalúan los avances y se obtiene la retroalimentación del cliente. Posteriormente, en la retrospectiva, el equipo analiza el proceso de trabajo para identificar y aplicar mejoras en los siguientes sprints.
- \item \textbf{Lanzamiento:} Una vez culminados los sprints y validado el software, se procede al lanzamiento del producto. Este proceso incluye la integración final en producción, la comunicación de los resultados obtenidos y la documentación de los aprendizajes y éxitos alcanzados durante el proyecto.
+ \item \textbf{Planificación y Estimación:} En la reunión de planificación de cada 
+ sprint se organizan las actividades, 
+ se definen los objetivos del sprint y 
+ se seleccionan las tareas del \textit{Product Backlog} a abordar.
+  Se estiman los tiempos y recursos necesarios para cada tarea. \cite{Schwaber2004,Cohn2005}.
+
+ \item \textbf{Implementación:} Durante el sprint se desarrolla el proyecto, 
+ se establece la infraestructura tecnológica y se desarrollan los diseños en 
+ código funcional. Esta fase iterativa permite la entrega continua de incrementos 
+ de software operativos en forma de prototipos. \cite{Sutherland2014}.
+ 
+ \item \textbf{Revisión y Retrospectiva:} Al final de cada sprint se realiza
+  una reunión de revisión en la que se evalúan los avances y 
+  se obtiene la retroalimentación del cliente. 
+  Posteriormente, en la retrospectiva, el equipo analiza el proceso de trabajo 
+  para identificar y aplicar mejoras en los siguientes sprints.
+
+ \item \textbf{Lanzamiento:} Una vez culminados los sprints y validado el software, 
+ se procede al lanzamiento del producto. Este proceso incluye la integración final 
+ en producción, la comunicación de los resultados obtenidos y la documentación de 
+ los aprendizajes y éxitos alcanzados durante el proyecto.
 \end{itemize}
 
 
 \subsection{Adaptación de la metodología Hariyanti para el desarrollo de dashboards}
 
-Se realizó una adaptación de una metodología preestablecida como la Hariyanti\cite{hariyanti-dashboard} para el desarrollo de \textit{dashboards} estratégicos. En esta se plantean aspectos claves que debe tener un \textit{dashboard estratégico} y cómo conseguirlos.
+Se consultó una metodología preestablecida como la Hariyanti\cite{hariyanti-dashboard} para el
+ desarrollo de \textit{dashboards} estratégicos. Se plantea como \textit{dashboard estratégico} un sistema que cumpla 
+el propósito de brindar soporte a usuarios administrativos para la toma de decisiones 
+empresariales basadas en la información presentada. Aparte, se alinea con los objetivos de la organización.\cite{hariyanti-dashboard}
 
 \vspace{0.3cm}
-Se plantea como \textit{dashboard estratégico} un sistema que cumpla el propósito de brindar soporte a usuarios administrativos para la toma de decisiones empresariales basadas en la información presentada. Aparte, se alinea con los objetivos de la organización.\cite{hariyanti-dashboard}
 
-\vspace{0.3cm}
-\begin{figure}[htpb] 
-	\centering
-	\includegraphics[width=0.65\linewidth]{img/Metodología-hariyaki.png}
-	\vspace{-1mm}
-	\caption[adaptación de metodología propuesta por Hariyanti]{\textit{Metodología para el desarrollo de un dashboard adaptado de la metodología propuesta por Hariyanti\cite{hariyanti-dashboard}. Imagen propia.}}
-	\label{fig:hariyanti} 
-\end{figure}
-
+En esta metodología se plantean aspectos claves que debe tener un \textit{dashboard estratégico} y cómo conseguirlos.
 En la metodología Hariyanti, se plantean las fases claves para el desarrollo de un dashboard:
 
 \begin{itemize}
@@ -456,8 +443,68 @@ En la metodología Hariyanti, se plantean las fases claves para el desarrollo de
     
 \end{itemize}
 
+
+
+\subsection{Adaptación del ciclo de vida del software}
+
+Se divide en las siguientes cinco fases, en las que se detallan las actividades concretas que garantizan el cumplimiento de los objetivos del proyecto:
+
+\begin{itemize}
+  \item \textbf{Planificación: }En esta fase se definen los elementos iniciales y se establece la planificación general del proyecto. 
+Se aborda la situación problema identificando las necesidades del cliente mediante
+ reuniones y entrevistas, se revisa la literatura relevante y se definen los objetivos 
+ del proyecto. Se definen los requerimientos, se elabora el cronograma inicial, 
+ se estima el presupuesto y se desarrolla el anteproyecto.
+ \item \textbf{Diseño }En esta fase se diseña la solución, especificando las funcionalidades asignadas.
+ Se identifican los casos de uso y se analizan los posibles flujos 
+ de interacción para que sean incorporados en el diseño del sistema.
+ Esto corresponde a diseñar la interfaz de usuario y definir las 
+ funcionalidades relacionadas con la generación de reportes y 
+ la creación de un \textit{dashboard} interactivo.
+ \item \textbf{Desarrollo: }Se implementan las funcionalidades definidas en la fase de diseño utilizando 
+tecnologías orientadas al desarrollo web, por medio de patrones de diseño. 
+Aparte, se contempla el desarrollo de interfaces y componentes interactivos 
+con frameworks oriendatos a diseño web. 
+También se plantea la documentación y
+revisión de código para la mantenibilidad y escalabilidad del sistema.
+ \item \textbf{Pruebas del Software: }En esta fase se valida, mediante pruebas, 
+que el software cumpla con el flujo esperado. 
+Se lleva a cabo una revisión por parte del cliente y, 
+en función de su retroalimentación y de la evaluación 
+de los requerimientos acordados, se retorna a la fase 
+de diseño para realizar nuevas iteraciones del prototipo. 
+Asimismo, se realizan reuniones de revisión y 
+retrospectivas al final de cada sprint para identificar oportunidades de 
+mejora y posibles adaptaciones al prototipo.
+ \item \textbf{Integración y Despliegue en Producción: }Una vez que el software 
+ desarrollado cumpla con los requerimientos acordados con el cliente, 
+se procede a integrarlo con en entorno de producción.
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 \vspace{0.3cm}
-A partir de esto, se adaptaron las fases propuestas por Hariyanti, dando como fruto el esquema de trabajo propuesto en la figura \ref{fig:hariyanti}.
+A partir del marco de trabajo \textit{Scrum}, el ciclo de vida del software, y la metodología para desarrollo
+ de \textit{dashboards} consultada, se obtuvo la metodología propuesta en la figura \ref{fig:hariyanti}, 
+ la cual fue empleada durante el ciclo de vida del proyecto.   
+dando como fruto el esquema de trabajo 
+\vspace{0.3cm}
+\begin{figure}[htpb] 
+	\centering
+	\includegraphics[width=0.65\linewidth]{img/Metodología-hariyaki.png}
+	\vspace{-1mm}
+	\caption[Metodología propuesta a emplear durante el proyecto]{\textit{Metodología para el desarrollo de un dashboard adaptado de la metodología propuesta por Hariyanti\cite{hariyanti-dashboard}. Imagen propia.}}
+	\label{fig:hariyanti} 
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 %%%%%%%%
 
 
@@ -1201,7 +1248,7 @@ Dentro de las recomendaciones que se realizan a partir del proyecto, se encuentr
 \raggedright\textit{\textbf{APÉNDICE A} RESULTADOS DEL PRIMER OBJETIVO}
 \label{APÉNDICE:a}
 
-A continuación, en las siguientes páginas, se encuentran los documentos que corresponden a las historias de usuario planteadas para el sistema, y la especificación de requerimientos de este. 
+A continuación, en las siguientes páginas, se encuentran los documentos que corresponden a las historias de usuario planteadas para el sistema, y la especificación de requerimientos. 
 
 \includepdf[pages=-, fitpaper]{img/PDF/UX_STORIES_FINAL_OBJ1.pdf}
 \includepdf[pages=-, fitpaper]{img/PDF/ESP_REQ_FINAL_OBJ1.pdf}
