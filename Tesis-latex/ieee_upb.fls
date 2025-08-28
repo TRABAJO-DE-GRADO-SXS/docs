@@ -254,6 +254,9 @@ INPUT C:\Users\Salis\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
+INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
+INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\ieee_upb.toc
 INPUT .\ieee_upb.toc
 INPUT ieee_upb.toc
@@ -320,9 +323,6 @@ INPUT .\pdf_resumes\resumening.pdf
 INPUT .\pdf_resumes\resumening.pdf
 INPUT .\pdf_resumes\resumening.pdf
 INPUT .\pdf_resumes\resumening.pdf
-INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
-INPUT C:\Users\Salis\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\img\dashboards_pce.jpg
 INPUT .\img\dashboards_pce.jpg
 INPUT .\img\dashboards_pce.jpg
