@@ -1205,7 +1205,10 @@ en el apéndice \ref{APÉNDICE:E} se encuentra la carta de entrega, firmada por 
 integrantes del equipo y jefatura de biblioteca.
 
 \vspace{0.3cm}
-
+Después de cierta cantidad de tiempo en donde el usuario interactuó con el sistema, se realizaron pruebas manuales para comprobar
+la eficacia, el nivel de responsive y los tiempos de respuesta del aplicativo. En el apéndice \ref{APÉNDICE:F} se plantean 
+las tarjetas de prueba para la eficacia, los tiempos de respuesta y el nivel de responsive. Por otro lado, en el apéndice \ref{APÉNDICE:G} se encuentran las tarjetas
+de aprendizaje, respectivamente. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -1213,10 +1216,34 @@ integrantes del equipo y jefatura de biblioteca.
 \newpage
 \section{CONCLUSIONES}
 \begin{itemize}
-  \item Las reuniones semanales con el cliente fueron claves para mantener el foco durante la planeación y desarrollo del proyecto, permitiendo la priorización de tareas según las necesidades del usuario final.
-  \item El diseño de artefactos como los middlewares, y la utilización de interfaces como express router sirvieron para la reutilización de código, agilizando el desarrollo del proyecto y permitiendo cumplir con el cronograma planteado.
-  \item El uso del marco de trabajo Scrum al momento del desarrollo permitió la adaptación del prototipo por medio de ciclos iterativos, incorporando las observaciones realizadas por el cliente en cada revisión y agregando las funcionalidades correspondientes a cada módulo comprometido. 
-  \item La adaptación de una metodología para el desarrollo de dashboards  permitió la organización del proyecto en cinco fases, definiendo cada una de estas con actividades puntuales y metas medibles, dando como resultado un proyecto estructurado y entregables que se alinean a estas etapas y los objetivos planteados.
+  \item Las reuniones semanales con el cliente fueron 
+  claves para mantener el foco durante la planeación y 
+  desarrollo del proyecto, posibilitando la priorización 
+  de tareas según las necesidades del usuario final, 
+  permitiendo que el sistema cumpliera satisfactoriamente 
+  con la especificación de requerimientos de software. 
+  \item Se ejecutó la utilización de artefactos como los 
+  middlewares e interfaces para la reutilización de código, 
+  lo que agilizó los tiempos de construcción de la solución 
+  facilitando la adaptación del prototipo en las iteraciones
+   que se dieron durante la etapa de desarrollo, llevando a cumplir 
+  con los requisitos y manteniéndose dentro del cronograma previsto.
+
+  \item La utilización de buenas prácticas 
+  establecidas por el del marco de trabajo Scrum 
+  fueron claves ya que la retroalimentación recibida
+   por los stakeholders posibilitó la implementación mejoras
+    en los diferentes prototipos de acuerdo a nuevas exigencias, 
+    lo cual posibilitó que el producto se 
+  mantuviera alineado  con las prioridades establecidas. 
+
+  \item La adopción de una metodología 
+  específica para el desarrollo de dashboards
+   permitió organizar el proyecto en cinco fases,
+    definiendo actividades concretas y metas medibles en
+     cada etapa; esto dio como resultado un proyecto 
+     estructurado, con entregables 
+  alineados a los objetivos y una guía clara para el equipo.
 
 
 \end{itemize}
@@ -1225,13 +1252,15 @@ integrantes del equipo y jefatura de biblioteca.
 \section{RECOMENDACIONES}
 Dentro de las recomendaciones que se realizan a partir del proyecto, se encuentran las siguientes:
 \begin{itemize}
-  \item Leer la documentación del proyecto en caso de retomarlo con el propósito de expandirlo, para que las decisiones que se tomen sean informadas, se mantenga coherencia con la arquitectura implementada y se eviten inconvenientes que puedan surgir por falta de familiarización con el sistema.
-  \item Si se decide realizar cambios en el sistema, al momento de desplegar este proyecto en la infraestructura de la universidad, se recomienda diseñar un archivo bash, el cual permita automatizar el proceso de instalación de dependencias y la configuración del entorno. Se deja un ejemplo de archivo en los entregables del proyecto, con el fin de que sirva como guía para futuras implementaciones.
-  \item Centralizar la autenticación para los distintos sistemas propios de la universidad, debido a que, en tal caso de que se realicen acciones no previstas, se tendrían que realizar múltiples actualizaciones a los sistemas que se encuentren en producción, lo que podría generar inconsistencia, aumentar el riesgo de errores y generar problemas de escalabilidad.
-  \item Integrar el sistema de biblioteca Alejandría, junto con el sistema SABIB, con el fin de que el usuario pueda acceder a los servicios de ambos sistemas con una sola autenticación, buscando la centralización.
-  \item Debido a que dentro de la base de datos actual no se encuentran normalizados los estados de los libros en el inventario, se recomienda que se realice la implementación de una tabla que los especifique, con el fin de evitar inconsistencias a la hora de realizar consultas, mejorando la calidad de los datos almacenados.
-  \item Remover las tablas que no se encuentren en uso dentro de la base de datos, para mejorar la mantenibilidad y legibilidad de los datos almacenados.
-  \item En caso de realizar una migración de la base de datos, se recomienda actualizar los queries del backend, ya que estos están adaptados para MySQL 5 y podrían presentar problemas de compatibilidad y rendimiento con versiones más recientes.
+\item Si se decide realizar cambios en el sistema, se recomienda leer la documentación del proyecto para que las decisiones que se tomen sean informadas, se mantenga coherencia con la arquitectura implementada y se eviten inconvenientes que puedan surgir por falta de familiarización con el sistema. Al momento de desplegar este proyecto en la infraestructura de la universidad, se recomienda diseñar un archivo tipo bash, el cual permita automatizar el proceso de instalación de dependencias y la configuración del entorno. 
+\item Centralizar la autenticación para los distintos sistemas propios de la universidad, debido a que, en tal caso de que se realicen acciones no previstas, se tendrían que realizar múltiples actualizaciones a los sistemas que se encuentren en producción, lo que podría generar inconsistencia, aumentar el riesgo de errores y generar problemas de escalabilidad.
+\item Integrar el sistema de biblioteca Alejandría junto con el sistema SABIB, con el fin de que el usuario pueda acceder a los servicios de ambos sistemas por medio de un único portal web.
+\item Debido a que dentro de la base de datos actual no se encuentran normalizados los estados de los libros en el inventario, se recomienda que se realice la implementación de una tabla que los especifique, con el fin de evitar inconsistencias a la hora de realizar consultas, mejorando la calidad de los datos almacenados.
+\item Se recomienda normalizar la base de datos de biblioteca, ya que en esta se encuentran tablas de prueba, sin registros o registros duplicados, y no posee relaciones lógicas. Se propone esto para mejorar la mantenibilidad, escalabilidad y legibilidad de los datos almacenados.
+\item En caso de realizar una migración de la base de datos, se recomienda actualizar los queries del backend, ya que estos están adaptados para MySQL 5 y podrían presentar problemas de compatibilidad y rendimiento con versiones más recientes.
+\item  El equipo de trabajo debió adaptar los queries del backend del aplicativo para funcionar en MySQL 5, ya que actualmente la base de datos de la biblioteca Benedicto XVI se encuentra en dicha versión. En el caso de migrar a MySQL 8, se recomienda actualizar estos para evitar problemas de rendimiento.  
+
+
 \end{itemize}
 
 \newpage
@@ -1288,10 +1317,33 @@ A continuación, en las siguientes páginas, se encuentra el aplicativo final y 
 
 
 %%%%%%%%%%%%%%%%%%CARTA
-\raggedright\textit{\textbf{APÉNDICE E} CARTA DE ENTREGA}
+\raggedright\textit{\textbf{APÉNDICE E} CARTA DE DESPLIEGUE}
 \label{APÉNDICE:E}
 
-A continuación, se encuentra la carta de entrega del proyecto. 
+A continuación, se encuentra la carta de despliegue del proyecto. 
 
 \includepdf[pages=-, fitpaper]{img/PDF/Carta-entrega.pdf}
+
+
+\raggedright\textit{\textbf{APÉNDICE F} TARJETAS DE PRUEBA}
+\label{APÉNDICE:F}
+
+A continuación, se encuentran las tarjetas de prueba del software.  
+
+\includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_Eficacia.pdf}
+\includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_TiemposRespuesta.pdf}
+\includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_Responsive.pdf}
+
+
+\raggedright\textit{\textbf{APÉNDICE G} TARJETAS DE PRUEBA}
+\label{APÉNDICE:G}
+
+A continuación, se encuentran las tarjetas de aprendizaje del software.  
+
+\includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_Eficacia.pdf}
+\includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_TiemposRespuesta.pdf}
+\includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_responsive.pdf}
+
+
+
 \end{document}

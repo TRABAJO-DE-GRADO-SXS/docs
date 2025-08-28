@@ -1,0 +1,80 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {I}INTRODUCCIÓN}{13}{section.1}%
+\contentsline {section}{\numberline {II}PLANTEAMIENTO DEL PROBLEMA}{14}{section.2}%
+\contentsline {section}{\numberline {III}JUSTIFICACIÓN}{16}{section.3}%
+\contentsline {section}{\numberline {IV}OBJETIVOS}{17}{section.4}%
+\contentsline {subsection}{\numberline {A}Objetivo general}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {B}Objetivos específicos}{17}{subsection.4.2}%
+\contentsline {section}{\numberline {V}MARCO REFERENCIAL}{18}{section.5}%
+\contentsline {subsection}{\numberline {A}Antecedentes}{18}{subsection.5.1}%
+\contentsline {subsection}{\numberline {B}Marco teórico}{19}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {1}\textit {Dashboards} para la toma de decisiones}{19}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {2}Generación de reportes}{20}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {C}Marco conceptual}{21}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {1}Stakeholders:}{21}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {2}Modulo de estadística: }{22}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {3}Libros usados en sala: }{22}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {4}Libros prestados: }{22}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5}Alejandría: }{22}{subsubsection.5.3.5}%
+\contentsline {subsubsection}{\numberline {6}Ejemplares de libros: }{22}{subsubsection.5.3.6}%
+\contentsline {subsubsection}{\numberline {7}Decimal Dewey Classification (DDC):}{22}{subsubsection.5.3.7}%
+\contentsline {subsubsection}{\numberline {8}Dashboard: }{23}{subsubsection.5.3.8}%
+\contentsline {subsubsection}{\numberline {9}Reportes: }{23}{subsubsection.5.3.9}%
+\contentsline {subsubsection}{\numberline {10}KPI (Key Performance Indicators)}{23}{subsubsection.5.3.10}%
+\contentsline {subsubsection}{\numberline {11}UMUX}{23}{subsubsection.5.3.11}%
+\contentsline {subsubsection}{\numberline {12}Pruebas de software: }{24}{subsubsection.5.3.12}%
+\contentsline {subsubsection}{\numberline {13}Gráfico de barras: }{24}{subsubsection.5.3.13}%
+\contentsline {subsubsection}{\numberline {14}Extensión XLSX: }{24}{subsubsection.5.3.14}%
+\contentsline {subsubsection}{\numberline {15}Bases de datos relacional: }{24}{subsubsection.5.3.15}%
+\contentsline {subsubsection}{\numberline {16}Contenedores}{24}{subsubsection.5.3.16}%
+\contentsline {subsubsection}{\numberline {17}Backend}{25}{subsubsection.5.3.17}%
+\contentsline {subsubsection}{\numberline {18}ISO: }{25}{subsubsection.5.3.18}%
+\contentsline {subsubsection}{\numberline {19}Filtro en generación de reportes}{25}{subsubsection.5.3.19}%
+\contentsline {subsection}{\numberline {D}Marco tecnológico}{25}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {1}TypeScript:}{25}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {2}Node.js:}{25}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {3}Express:}{25}{subsubsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {4}Patrón Singleton:}{25}{subsubsection.5.4.4}%
+\contentsline {subsubsection}{\numberline {5}Patrón Abstract Factory:}{25}{subsubsection.5.4.5}%
+\contentsline {subsection}{\numberline {E}Marco institucional}{25}{subsection.5.5}%
+\contentsline {section}{\numberline {VI}METODOLOGÍA}{27}{section.6}%
+\contentsline {subsection}{\numberline {A}Integración del Marco de Trabajo \textit {Scrum}}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {B}Adaptación de la metodología Hariyanti para el desarrollo de dashboards}{27}{subsection.6.2}%
+\contentsline {subsection}{\numberline {C}Adaptación del ciclo de vida del software}{28}{subsection.6.3}%
+\contentsline {section}{\numberline {VII}CRONOGRAMA DE ACTIVIDADES}{30}{section.7}%
+\contentsline {section}{\numberline {VIII}PRESUPUESTO}{31}{section.8}%
+\contentsline {section}{\numberline {IX}RESULTADOS}{32}{section.9}%
+\contentsline {subsection}{\numberline {A}Primera fase: Identificación de necesidades}{32}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {1}Identificar el objetivo de la biblioteca y la condición actual:}{32}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {2}Identificar posibles stakeholders y sus necesidades: }{32}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {3}Identificación de posibles funcionalidades del dashboard: }{33}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {4}Identificación de posibles KPIs: }{33}{subsubsection.9.1.4}%
+\contentsline {subsection}{\numberline {B}Segunda fase: Planeación}{34}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {1}Determinar módulos del sistema: }{34}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {2}Análisis de la base de datos de la biblioteca: }{35}{subsubsection.9.2.2}%
+\contentsline {subsection}{\numberline {C}Tercera fase: Diseño de las funcionalidades básicas del sistema }{38}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {1}Cantidad de libros por estado y total: }{38}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {2}Comparación de libros por facultad:}{39}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {3}Comparación de grupos literarios: }{40}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {4}Comparación de préstamos por facultad:}{41}{subsubsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {5}Comparación de préstamos por tipo de usuario:}{41}{subsubsection.9.3.5}%
+\contentsline {subsubsection}{\numberline {6}Comparación de libros prestados por facultad: }{42}{subsubsection.9.3.6}%
+\contentsline {subsubsection}{\numberline {7}Comparación de libros por uso en sala: }{43}{subsubsection.9.3.7}%
+\contentsline {subsubsection}{\numberline {8}Comparación de préstamos por estudiantes: }{43}{subsubsection.9.3.8}%
+\contentsline {subsubsection}{\numberline {9}Libros que no han sido usado en años: }{44}{subsubsection.9.3.9}%
+\contentsline {subsubsection}{\numberline {10}Libros según su estado: }{44}{subsubsection.9.3.10}%
+\contentsline {subsubsection}{\numberline {11}Préstamos por tipo de usuario:}{44}{subsubsection.9.3.11}%
+\contentsline {subsection}{\numberline {D}Cuarta fase: Diseño del prototipo}{44}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {1}Planteamiento de historias de usuario: }{44}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {2}Planteamiento de requerimientos del sistema: }{45}{subsubsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {3}Diseño inicial UX del sistema: }{45}{subsubsection.9.4.3}%
+\contentsline {subsection}{\numberline {E}Quinta fase: Desarrollo del prototipo e implementación}{45}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {1}Primer Sprint}{45}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {2}Segundo Sprint}{46}{subsubsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {3}Tercer Sprint}{47}{subsubsection.9.5.3}%
+\contentsline {subsubsection}{\numberline {4}Implementación}{47}{subsubsection.9.5.4}%
+\contentsline {section}{\numberline {X}CONCLUSIONES}{49}{section.10}%
+\contentsline {section}{\numberline {XI}RECOMENDACIONES}{50}{section.11}%
+\contentsline {section}{REFERENCIAS}{54}{section.11}%
+\contentsline {section}{APÉNDICES}{55}{section.11}%
+\contentsfinish 
