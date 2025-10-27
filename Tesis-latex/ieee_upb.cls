@@ -127,10 +127,13 @@
 % Formato básico del TOC
 \titlecontents{section}
 [0pt]                                    % margen
-{\normalfont\addvspace{0.5em}}                       % formato general
+{\normalfont\addvspace{0.1cm}}                       % formato general
 {\thecontentslabel.\quad}                % número con punto
 {}                                       % sin número
 {\titlerule*[.5pc]{.}\contentspage}      % puntos y página
+
+
+
 
 \titlecontents{subsection}
 [2em]                                    % margen
@@ -188,13 +191,13 @@
 \titleformat{\section}
 {\normalfont\bfseries\centering}
 {\Roman{section}.}{1em}{}
-\titlespacing*{\section}{0pt}{*4}{*4}
+\titlespacing*{\section}{0pt}{*4}{*1}
 
 % Nivel 2
 \titleformat{\subsection}
 {\normalfont\bfseries\itshape\raggedright}
 {\Alph{subsection}.}{1em}{}
-\titlespacing*{\subsection}{0pt}{*3}{*3}
+\titlespacing*{\subsection}{0pt}{*1}{*1}
 
 % Nivel 3
 \titleformat{\subsubsection}[runin] 
@@ -300,3 +303,16 @@
     \end{center}
     \clearpage
 }
+
+
+% en el preámbulo
+\newcommand{\citalarga}[1]{%
+  {\par                         
+   \begingroup                 
+     \setlength{\leftskip}{\parindent}
+     \noindent                  
+     \itshape #1\par            
+   \endgroup}%
+}
+
+

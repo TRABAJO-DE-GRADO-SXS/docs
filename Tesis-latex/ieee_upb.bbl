@@ -125,10 +125,6 @@ B.~Marr, \emph{Key Performance Indicators: The 75 Measures Every Manager Needs
 K.~Finstad, ``The usability metric for user experience,'' \emph{Interacting
   with computers}, vol.~22, no.~5, pp. 323--327, 2010.
 
-\bibitem{jorgensen2013software}
-P.~C. Jorgensen, \emph{Software Testing: A Craftsman's Approach}.\hskip 1em
-  plus 0.5em minus 0.4em\relax CRC Press, 2013.
-
 \bibitem{healy2018data}
 K.~Healy, \emph{Data Visualization: A Practical Introduction}.\hskip 1em plus
   0.5em minus 0.4em\relax Princeton University Press, 2018.
@@ -152,11 +148,6 @@ Microsoft, ``Excel open xml formats: Xlsx,''
   gestión de bases de datos relacionales)?''
   \url{https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/bases-de-datos-relacionales/},
   s.f.
-
-\bibitem{matthias2014docker}
-K.~Matthias and S.~P. Kane, \emph{Docker: Up \& Running: Shipping Reliable
-  Containers in Production}.\hskip 1em plus 0.5em minus 0.4em\relax O'Reilly
-  Media, 2014.
 
 \bibitem{ibm_backend_2020}
 I.~Developers, ``Backend development: Best practices and trends,'' \emph{IBM
