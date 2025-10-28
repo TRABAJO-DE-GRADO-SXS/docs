@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ieee_upb"] 1761665873.53791 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1761666128.56916 0
+["bibtex ieee_upb"] 1761668220.23457 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1761668230.51704 0
   "./bibliography.bib" 1755567804 14352 fbfe6b0a26f9a4799ade328ad4d6e845 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ieee_upb.aux" 1761666126 19047 9b824df9bad1e3596cbd5ac8cf236fd3 "pdflatex"
+  "ieee_upb.aux" 1761668228 19047 ed0153556e7eb15a57d12347b7a2682a "pdflatex"
   (generated)
   "ieee_upb.bbl"
   "ieee_upb.blg"
   (rewritten before read)
-["pdflatex"] 1761666117.12448 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1761666128.56994 0
+["pdflatex"] 1761668220.62898 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1761668230.51797 0
   "C:/Users/Salis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756491445 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Salis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741374134 24225045 d15fcb033e839de986165c8859d0c485 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -164,15 +164,15 @@
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1761666115 87428 e7b60992ca6f075a4270716219e219ce ""
-  "ieee_upb.aux" 1761666126 19047 9b824df9bad1e3596cbd5ac8cf236fd3 "pdflatex"
-  "ieee_upb.bbl" 1761665873 9721 84cb989f32114a9f5a555bc8136b65fb "bibtex ieee_upb"
-  "ieee_upb.cls" 1761665950 9681 a0b1ecfe90ca55cb0c3282328523876d ""
-  "ieee_upb.lof" 1761666126 1690 2c58bc50af1ecc564b4dddb622dc7357 "pdflatex"
-  "ieee_upb.lot" 1761666126 347 5657476f0acc3383b2be1293350cb997 "pdflatex"
-  "ieee_upb.out" 1761666126 15495 7ccafde041fc45ef14859dc9fbd4b247 "pdflatex"
-  "ieee_upb.tex" 1761666115 87428 e7b60992ca6f075a4270716219e219ce ""
-  "ieee_upb.toc" 1761666126 7395 29bbeeec3ab4c4621a395f6ad0aaba67 "pdflatex"
+  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1761668206 87454 bbad932149b09a7212d28e06875d1698 ""
+  "ieee_upb.aux" 1761668228 19047 ed0153556e7eb15a57d12347b7a2682a "pdflatex"
+  "ieee_upb.bbl" 1761668220 9721 84cb989f32114a9f5a555bc8136b65fb "bibtex ieee_upb"
+  "ieee_upb.cls" 1761668214 9682 f61a79944edb1b7eea6be9c0ae66bd60 ""
+  "ieee_upb.lof" 1761668228 1690 2c58bc50af1ecc564b4dddb622dc7357 "pdflatex"
+  "ieee_upb.lot" 1761668228 347 5657476f0acc3383b2be1293350cb997 "pdflatex"
+  "ieee_upb.out" 1761668228 15495 7ccafde041fc45ef14859dc9fbd4b247 "pdflatex"
+  "ieee_upb.tex" 1761668206 87454 bbad932149b09a7212d28e06875d1698 ""
+  "ieee_upb.toc" 1761668228 7395 29bbeeec3ab4c4621a395f6ad0aaba67 "pdflatex"
   "img/Cronograma-ajustado-2.png" 1755567804 25908 f3d2fc797a8dd3143643144ad082a585 ""
   "img/Diagramas/dominio.png" 1755567804 71232 843353b54297a327fb29e3288a00040b ""
   "img/Diagramas/entidad-relacion.png" 1755567804 116258 a235540166c53a865b051c5a60c0faa6 ""
@@ -180,6 +180,7 @@
   "img/PDF/Carta-entrega-1.pdf" 1758945145 236135 92cc05e305b335cf442b99bb880c50a5 ""
   "img/PDF/ESP_ARQ-1.pdf" 1758944767 1443692 5c9783f7b70943c5b3afafcd57f230f9 ""
   "img/PDF/ESP_REQ_FINAL_OBJ1-1.pdf" 1758944719 1414546 c82d76bc9802c3c9dc6158139568d704 ""
+  "img/PDF/Evaluacion-Heuristica-llena.pdf" 1758946686 294120 235204b184212013e5a2e633d6cbc36b ""
   "img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_Eficacia.pdf" 1758946150 127380 82b153b77dee01cc19e13c96d5d2ff42 ""
   "img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_TiemposRespuesta.pdf" 1758946248 137867 b5e4d557a04d6bbc668cef75461e5917 ""
   "img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_responsive.pdf" 1758946192 106665 1d7befb6a2c3601eae358568eaddf7ab ""

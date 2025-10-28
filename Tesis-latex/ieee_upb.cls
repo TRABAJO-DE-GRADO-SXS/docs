@@ -223,6 +223,7 @@
     list=no
 }
 
+
 % Configuración de figuras
 \captionsetup[figure]{
     labelsep=space,
