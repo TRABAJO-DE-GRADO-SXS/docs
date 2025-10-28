@@ -253,52 +253,66 @@
 }
 
 % Comando para la portada (modificado para mantener la numeración)
-\newcommand{\portada}[4]{
+\newcommand{\portada}[6]{
     \thispagestyle{fancy}  % Asegura que la portada tenga número de página
     \begin{center}
         {\bfseries #1\par}
-        \vspace{5cm}
+        \setstretch{1.5}
         {\bfseries #2\par}
+        \vspace{3.5cm}
+        {\bfseries #3\par}
+        \setstretch{1.5}
+        {\bfseries #4\par}
+
+
         \vspace{0.5cm}
         \includegraphics[width=0.17\textwidth]{img/upb_logo.png}\par
         \vspace{0.3cm}
-        {\bfseries TRABAJO DE GRADO PRESENTADO PARA OPTAR AL TÍTULO DE \\ INGENIERO DE SISTEMAS E INFORMÁTICA \par}
+        {\bfseries TRABAJO DE GRADO PRESENTADO PARA OPTAR AL TÍTULO DE\par} 
+        \setstretch{1.5}
+        {\bfseries INGENIERO DE SISTEMAS E INFORMÁTICA \par}
         \vspace{0.5cm}
         \vfill
         {\bfseries UNIVERSIDAD PONTIFICIA BOLIVARIANA\par}
-        \vspace{0.28cm}
-        {\bfseries #3\par}
-        \vspace{0.28cm}
-        {\bfseries #4\par}
-        \vspace{0.28cm}
+        \setstretch{1.5}
+        {\bfseries #5\par}
+        \setstretch{1.5}
+        {\bfseries #6\par}
+        \setstretch{1.5}
         {\bfseries BUCARAMANGA\par}
-        \vspace{0.28cm}
+        \setstretch{1.5}
         {\bfseries \number\year}
     \end{center}
     \clearpage
 }
 
-\newcommand{\contraportada}[6]{
+\newcommand{\contraportada}[8]{
     \thispagestyle{fancy}
     \begin{center}
         {\bfseries #1\par}
-        \vspace{3.5cm}
+        \setstretch{1.5}
         {\bfseries #2\par}
+        \vspace{3.5cm}
+        {\bfseries #3\par}
+        \setstretch{1.5}
+        {\bfseries #4\par}
         \vspace{3cm}
-        {\bfseries TRABAJO DE GRADO PARA OPTAR AL TÍTULO DE \\ INGENIERO DE SISTEMAS E INFORMÁTICA\par}
+        {\bfseries TRABAJO DE GRADO PARA OPTAR AL TÍTULO DE \par}
+        \setstretch{1.5}
+        {\bfseries INGENIERO DE SISTEMAS E INFORMÁTICA \par}
         \vspace{2.5cm}
         {\bfseries DIRECTOR\par}
-        \vspace{0.25cm}
-        {\bfseries #4\par}
+        \setstretch{1.5}
+        {\bfseries #6\par}
         \vfill
         {\bfseries UNIVERSIDAD PONTIFICIA BOLIVARIANA\par}
-        \vspace{0.28cm}
-        {\bfseries #5\par}
-        \vspace{0.28cm}
-        {\bfseries #6\par}
-        \vspace{0.28cm}
+        \setstretch{1.5}
+        {\bfseries #7\par}
+        \setstretch{1.5}
+        {\bfseries #8\par}
+        \setstretch{1.5}
         {\bfseries BUCARAMANGA\par}
-        \vspace{0.28cm}
+        \setstretch{1.5}
         {\bfseries \number\year}
     \end{center}
     \clearpage

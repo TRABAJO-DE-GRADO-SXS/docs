@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ieee_upb"] 1761583658.27208 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1761583860.24069 0
+["bibtex ieee_upb"] 1761665873.53791 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1761666128.56916 0
   "./bibliography.bib" 1755567804 14352 fbfe6b0a26f9a4799ade328ad4d6e845 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ieee_upb.aux" 1761583858 19047 9b824df9bad1e3596cbd5ac8cf236fd3 "pdflatex"
+  "ieee_upb.aux" 1761666126 19047 9b824df9bad1e3596cbd5ac8cf236fd3 "pdflatex"
   (generated)
   "ieee_upb.bbl"
   "ieee_upb.blg"
   (rewritten before read)
-["pdflatex"] 1761583849.34676 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1761583860.24146 0
+["pdflatex"] 1761666117.12448 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1761666128.56994 0
   "C:/Users/Salis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756491445 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Salis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741374134 24225045 d15fcb033e839de986165c8859d0c485 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -164,15 +164,15 @@
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1761583848 87433 8deb480545f9307467e7f748c03d996a ""
-  "ieee_upb.aux" 1761583858 19047 9b824df9bad1e3596cbd5ac8cf236fd3 "pdflatex"
-  "ieee_upb.bbl" 1761583658 9721 84cb989f32114a9f5a555bc8136b65fb "bibtex ieee_upb"
-  "ieee_upb.cls" 1761579849 9365 8650f87f60d0c45babc1b11ef0512dfb ""
-  "ieee_upb.lof" 1761583858 1690 2c58bc50af1ecc564b4dddb622dc7357 "pdflatex"
-  "ieee_upb.lot" 1761583858 347 5657476f0acc3383b2be1293350cb997 "pdflatex"
-  "ieee_upb.out" 1761583858 15495 7ccafde041fc45ef14859dc9fbd4b247 "pdflatex"
-  "ieee_upb.tex" 1761583848 87433 8deb480545f9307467e7f748c03d996a ""
-  "ieee_upb.toc" 1761583858 7395 29bbeeec3ab4c4621a395f6ad0aaba67 "pdflatex"
+  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1761666115 87428 e7b60992ca6f075a4270716219e219ce ""
+  "ieee_upb.aux" 1761666126 19047 9b824df9bad1e3596cbd5ac8cf236fd3 "pdflatex"
+  "ieee_upb.bbl" 1761665873 9721 84cb989f32114a9f5a555bc8136b65fb "bibtex ieee_upb"
+  "ieee_upb.cls" 1761665950 9681 a0b1ecfe90ca55cb0c3282328523876d ""
+  "ieee_upb.lof" 1761666126 1690 2c58bc50af1ecc564b4dddb622dc7357 "pdflatex"
+  "ieee_upb.lot" 1761666126 347 5657476f0acc3383b2be1293350cb997 "pdflatex"
+  "ieee_upb.out" 1761666126 15495 7ccafde041fc45ef14859dc9fbd4b247 "pdflatex"
+  "ieee_upb.tex" 1761666115 87428 e7b60992ca6f075a4270716219e219ce ""
+  "ieee_upb.toc" 1761666126 7395 29bbeeec3ab4c4621a395f6ad0aaba67 "pdflatex"
   "img/Cronograma-ajustado-2.png" 1755567804 25908 f3d2fc797a8dd3143643144ad082a585 ""
   "img/Diagramas/dominio.png" 1755567804 71232 843353b54297a327fb29e3288a00040b ""
   "img/Diagramas/entidad-relacion.png" 1755567804 116258 a235540166c53a865b051c5a60c0faa6 ""
