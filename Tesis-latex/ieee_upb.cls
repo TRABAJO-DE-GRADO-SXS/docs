@@ -164,6 +164,11 @@
 {}                                       % sin número
 {\titlerule*[.5pc]{.}\contentspage}      % puntos y página
 
+
+
+
+
+
 \titlecontents{lstlisting}
 [0pt]                                    % margen
 {\normalfont\addvspace{0.25em}}          % formato general + espacio vertical
@@ -229,7 +234,7 @@
     labelsep=space,
     justification=centering,
     name=Fig.,
-    font=normalsize,
+    font={normalsize,normalfont},
     skip=10pt
 }
 
@@ -326,8 +331,7 @@
    \begingroup                 
      \setlength{\leftskip}{\parindent}
      \noindent                  
-     \itshape #1\par            
+     #1\par            
    \endgroup}%
 }
-
 
