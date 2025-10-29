@@ -75,5 +75,5 @@
 \contentsline {section}{\numberline {X}CONCLUSIONES}{48}{section.10}%
 \contentsline {section}{\numberline {XI}RECOMENDACIONES}{49}{section.11}%
 \contentsline {section}{REFERENCIAS}{53}{section.11}%
-\contentsline {section}{APÉNDICES}{54}{section.11}%
+\contentsline {section}{APÉNDICE A: RESULTADOS DEL PROYECTO}{54}{section.11}%
 \contentsfinish 

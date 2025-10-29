@@ -37,13 +37,20 @@
 A mi madre, mi hermana y sobre todo a mi padre;
 es un honor recorrer el camino que has forjado.
 
+\vspace{-0.30cm}
+\begin{flushright}
 \textit{ Sofía Salas.}
-
+\end{flushright}
 
 A mi madre y a mi tío Nestor, quienes han creído en mí y en lo que soy capaz.
 Mis logros son frutos de su devoto apoyo.
 
+\vspace{-0.30cm}
+\begin{flushright}
 \textit{ Santiago Cárdenas.}
+\end{flushright}
+
+
 % Agradecimientos
 \clearpage
 % Usa el comando specialsection para Agradecimientos
@@ -60,7 +67,10 @@ ha sido luz en los días más azules.
 A mi Sarita, que no ha parado de hacerme reír 
 desde que estábamos pequeñas. 
 A Lili y Alejandro, mis padres, 
-porque sin ellos nada sería posible. \textbf{\textit{ Sofía Salas.}}
+porque sin ellos nada sería posible. 
+\\
+\\
+\textit{Sofía Salas}
 \\
 \indent Agradezco a mi madre, quien siempre ha sido un apoyo y, a pesar de 
 las dificultades, siempre ha luchado para que yo tuviera las oportunidades que merezco.
@@ -72,7 +82,9 @@ A mis amigas Alexandra y Fabiana y a mi compañera de tesis Sofía; que más que
 se ha convertido en un lazo inquebrantable, de quienes no he recibido más que amor y apoyo incondicional.
 A mis profesores, por su dedicación y compromiso en mi formación académica, quienes me han brindado las herramientas necesarias para alcanzar mis metas.
 A todas aquellas personas que, en diferentes circunstancias, han hecho parte de mi vida. Sin ellas no sería quien soy hoy en día
-y que sepan que, no por no mencionarlas, son menos importantes en mi historia.\textbf{\textit{ Santiago Cárdenas.}}
+y que sepan que, no por no mencionarlas, son menos importantes en mi historia.
+\\
+\textit{David Cárdenas}
 
 
 % Tabla de contenido
@@ -109,7 +121,9 @@ y que sepan que, no por no mencionarlas, son menos importantes en mi historia.\t
 \renewcommand\listfigurename{\hfill\normalfont\bfseries LISTA DE FIGURAS\hfill}
 \listoffigures
 
+%Lista de apendices
 
+\newlistof{appendices}{apc}{\listappendicesname}
 
 \newpage
 \section*{GLOSARIO}
@@ -265,7 +279,7 @@ Los \textit{dashboards}, según como lo establece Zingde, S. y Shroff, N. \cite{
 	\centering
 	\includegraphics[width=0.8\linewidth]{img/dashboards_pce.jpg}
 	\vspace{-1mm}
-	\caption[Definición de Dashboard]{\textit{Dashboards - Propósito, Capacidades y Expectativas} \cite{zingde2020role}.}
+	\caption[Definición de Dashboard]{Dashboards - Propósito, Capacidades y Expectativas \cite{zingde2020role}.}
 	\label{fig:dashboard_pce} 
   \vspace{-4mm}
 \end{figure}
@@ -415,11 +429,11 @@ Cada una de estas categorías es medida en una escala del 1 al 7, siendo uno ''E
 
 El desarrollo del proyecto de generación de reportes de biblioteca y el \textit{dashboard} intereactivo se realiza como un servicio para la biblioteca Benedicto XVI de la Universidad Pontificia Bolivariana, Seccional Bucaramanga. Esta biblioteca tiene como misión:
 
-\citalarga{''Facilitar la formación integral de los docentes, investigadores, estudiantes y personal administrativo de la Universidad Pontificia Bolivariana Seccional Bucaramanga, apoyando las actividades fundamentales de la UPB en docencia, investigación y promoción social, mediante la prestación de servicios bibliográficos pertinentes y de alta calidad.''\cite{UPB_Biblioteca}}
+\citalarga{Facilitar la formación integral de los docentes, investigadores, estudiantes y personal administrativo de la Universidad Pontificia Bolivariana Seccional Bucaramanga, apoyando las actividades fundamentales de la UPB en docencia, investigación y promoción social, mediante la prestación de servicios bibliográficos pertinentes y de alta calidad.\cite{UPB_Biblioteca}}
 
 Por otro lado, la visión de la Biblioteca Benedicto XVI menciona el uso de tecnologías avanzadas de información:
 
-\citalarga{''Ser el eje de toda la actividad académica, facilitando la adquisición del conocimiento mediante el uso adecuado de tecnologías avanzadas de información y comunicación para la difusión de información bibliográfica especializada a docentes, investigadores, estudiantes, personal administrativo de la UPB y entidades asociadas. La biblioteca espera contar con personal altamente capacitado en los servicios que ofrece y disponer de una infraestructura confortable que proporcione un ambiente adecuado para la consulta, lectura e investigación.'' \cite{UPB_Biblioteca}}
+\citalarga{Ser el eje de toda la actividad académica, facilitando la adquisición del conocimiento mediante el uso adecuado de tecnologías avanzadas de información y comunicación para la difusión de información bibliográfica especializada a docentes, investigadores, estudiantes, personal administrativo de la UPB y entidades asociadas. La biblioteca espera contar con personal altamente capacitado en los servicios que ofrece y disponer de una infraestructura confortable que proporcione un ambiente adecuado para la consulta, lectura e investigación. \cite{UPB_Biblioteca}}
 
 
 
@@ -524,9 +538,6 @@ se procede a integrarlo con en entorno de producción.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-\vspace{0.3cm}
 A partir del marco de trabajo \textit{Scrum}, el ciclo de vida del software, y la metodología para desarrollo
  de \textit{dashboards} consultada, se obtuvo la metodología propuesta en la figura \ref{fig:hariyanti}, 
  la cual fue empleada durante el ciclo de vida del proyecto.   
@@ -536,7 +547,7 @@ dando como fruto el esquema de trabajo
 	\centering
 	\includegraphics[width=0.65\linewidth]{img/Metodología-hariyaki.png}
 	\vspace{-1mm}
-	\caption[Metodología propuesta a emplear durante el proyecto]{\textit{Metodología para el desarrollo de un dashboard adaptado de la metodología propuesta por Hariyanti\cite{hariyanti-dashboard}.}}
+	\caption[Metodología propuesta a emplear durante el proyecto]{Metodología para el desarrollo de un dashboard adaptado de la metodología propuesta por Hariyanti\cite{hariyanti-dashboard}.}
 	\label{fig:hariyanti} 
 \end{figure}
 
@@ -545,6 +556,7 @@ dando como fruto el esquema de trabajo
 
 
 %%%%%%%%
+S
 
 
 
@@ -555,9 +567,10 @@ En la figura \ref{fig:cronograma} se puede observar el cronograma de actividades
 \vspace{0.3cm}
 \begin{figure}[htpb] 
 	\centering
-	\includegraphics[width=0.8\linewidth]{img/Cronograma-ajustado-2.png}
+	%\rotatebox{90}
+  {\includegraphics[width=1\linewidth]{img/Cronograma-ajustado-2.png}}
 	\vspace{-1mm}
-	\caption[Cronograma de actividades]{\textit{Cronograma de actividades.}}
+	\caption[Cronograma de actividades]{Cronograma de actividades.}
 	\label{fig:cronograma} 
   \vspace{-4mm}
 \end{figure}
@@ -573,7 +586,7 @@ En la figura \ref{fig:presupuesto} se puede observar el presupuesto para el proy
 	\centering
 	\includegraphics[width=0.9\linewidth]{img/presupuesto-inicial.png}
 	\vspace{-1mm}
-	\caption[Presupuesto para el proyecto.]{\textit{Presupuesto para el proyecto. }}
+	\caption[Presupuesto para el proyecto.]{Presupuesto para el proyecto. }
 	\label{fig:presupuesto} 
 \end{figure}
 
@@ -643,7 +656,7 @@ Basándose en el análisis previo, el equipo de trabajo extrajo las siguientes m
 	\centering
 	\includegraphics[width=0.9\linewidth]{img/Diagramas/dominio.png}
 	\vspace{-1mm}
-	\caption[Diagrama de dominio]{\textit{Diagrama de dominio del sistema.}}
+	\caption[Diagrama de dominio]{Diagrama de dominio del sistema.}
 	\label{fig:domain} 
   \vspace{-4mm}
 \end{figure}
@@ -660,7 +673,7 @@ El módulo de analítica corresponde a las estadísticas que presentan proyeccio
 
 \begin{table}[H]
     \centering
-    \caption[KPIs y reportes]{\bfseries KPIs y reportes seleccionados}
+    \caption[KPIs y reportes]{\bfseries KPIS Y REPORTES SELECCIONADOS}
     \label{tab:modulos_titulos}
     \resizebox{\columnwidth}{!}{\begin{tabular}{lll} \hline
         \textbf{Módulo correspondiente} & \textbf{Título} \\ \hline
@@ -695,7 +708,7 @@ Inicialmente, se realizó un diagrama incluyendo todas las tablas que se encontr
 	\centering
 	\includegraphics[width=0.8\linewidth]{img/Diagramas/entidad-relacion.png}
 	\vspace{-1mm}
-	\caption[Diagrama de entidad-relación de la base de datos de la biblioteca Benedicto XVI]{\textit{Tablas utilizadas en el proyecto.}}
+	\caption[Diagrama de entidad-relación de la base de datos de la biblioteca Benedicto XVI]{Tablas utilizadas en el proyecto.}
 	\label{fig:entidad-relacion} 
   \vspace{-4mm}
 \end{figure}
@@ -714,7 +727,7 @@ La información suele ser considerada de baja calidad si no es exacta, íntegra,
 	\centering
 	\includegraphics[width=0.8\linewidth]{img/variedades/bd-problemas1.png}
 	\vspace{-1mm}
-	\caption[Caso 1: Facultades en la base de datos repetidas]{\textit{Dato repetido en la base de datos.}}
+	\caption[Caso 1: Facultades en la base de datos repetidas]{Dato repetido en la base de datos.}
 	\label{fig:problemas-1} 
   \vspace{-4mm}
 \end{figure}
@@ -731,7 +744,7 @@ Al analizar los registros de ejemplares y sus estados, el equipo de trabajo not�
 	\centering
 	\includegraphics[width=0.2\linewidth]{img/variedades/bd-problemas2.png}
 	\vspace{-1mm}
-	\caption[Caso 2: Errores tipográficos en la base de datos]{\textit{Errores tipográficos}}
+	\caption[Caso 2: Errores tipográficos en la base de datos]{Errores tipográficos}
   \vspace{-4mm}
 	\label{fig:problemas-2} 
 \end{figure}
@@ -1141,20 +1154,20 @@ A partir del análisis del problema y el diseño de las funcionalidades prelimin
 
 \subsubsection{Planteamiento de historias de usuario: }
 
-Las historias de usuario definidas se encuentran dentro del APÉNDICE \ref{APÉNDICE:a}. Fueron supervisadas por el director del proyecto de grado y aprobadas por jefatura de biblioteca, alineándose con el primer objetivo planteado para el proyecto.
+Las historias de usuario definidas se encuentran dentro del APÉNDICE \ref{APÉNDICE:A}. Fueron supervisadas por el director del proyecto de grado y aprobadas por jefatura de biblioteca, alineándose con el primer objetivo planteado para el proyecto.
 
 \subsubsection{Planteamiento de requerimientos del sistema: }
 
-Una vez establecidas las historias de usuario, se realizó el documento de requerimientos de software, el cual se encuentra adjunto en el APÉNDICE \ref{APÉNDICE:a}. El documento fue revisado por el director ded proyecto de grado, y aprobado por jefatura de biblioteca, cumpliendo el primer objetivo planteado para el proyecto. 
+Una vez establecidas las historias de usuario, se realizó el documento de requerimientos de software, el cual se encuentra adjunto en el APÉNDICE \ref{APÉNDICE:A}. El documento fue revisado por el director ded proyecto de grado, y aprobado por jefatura de biblioteca, cumpliendo el primer objetivo planteado para el proyecto. 
 
 \subsubsection{Diseño inicial UX del sistema: }
-Se presentó al cliente un diseño inicial del sistema. Este diseño fue aprobado, sin embargo, durante la fase de desarrollo sufrió distintos cambios, a medida que iba siendo supervisado por el director del trabajo de grado y el cliente. En en apéndice \ref{APÉNDICE:B} se encuentra el diseño de este. Este se alinea con lo planteado en el segundo objetivo del proyecto. 
+Se presentó al cliente un diseño inicial del sistema. Este diseño fue aprobado, sin embargo, durante la fase de desarrollo sufrió distintos cambios, a medida que iba siendo supervisado por el director del trabajo de grado y el cliente. En en apéndice \ref{APÉNDICE:A} se encuentra el diseño de este. Este se alinea con lo planteado en el segundo objetivo del proyecto. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \subsection{Quinta fase: Desarrollo del prototipo e implementación}
 
 La fase de desarrollo está enmarcada por el marco de trabajo Scrum. Se realizaron tres Sprints de trabajo. 
-En el apéndice \ref{APÉNDICE:C} se encuentra la documentación correspondiente a la estructura y comportamiento del sistema desarrollado.
+En el apéndice \ref{APÉNDICE:A} se encuentra la documentación correspondiente a la estructura y comportamiento del sistema desarrollado.
 
  
  \subsubsection[Primer Sprint]{Primer Sprint: }
@@ -1166,7 +1179,7 @@ En el apéndice \ref{APÉNDICE:C} se encuentra la documentación correspondiente
 	\centering
 	\includegraphics[width=0.4\linewidth]{img/Sprints/S1.png}
 	\vspace{-1mm}
-	\caption[Puntos comprometidos primer Sprint]{\textit{Puntos comprometidos para el Primer Sprint. }}
+	\caption[Puntos comprometidos primer Sprint]{Puntos comprometidos para el Primer Sprint. }
 	\label{fig:S1} 
 \end{figure}
 
@@ -1177,7 +1190,7 @@ La velocidad del equipo en este sprint fue de 80\%.
 	\centering
 	\includegraphics[width=0.8\linewidth]{img/UX/s1-1.jpg}
 	\vspace{-1mm}
-	\caption[Primera versión software]{\textit{Primera versión software. }}
+	\caption[Primera versión software]{Primera versión software. }
 	\label{fig:S1-1} 
   \vspace{-4mm}
 \end{figure}
@@ -1196,7 +1209,7 @@ por parte del cliente. Estas recomendaciones se plantearon para el siguiente spr
 	\centering
 	\includegraphics[width=0.3\linewidth]{img/Sprints/S2.png}
 	\vspace{-1mm}
-	\caption[Puntos comprometidos segundo Sprint]{\textit{Puntos comprometidos para el Segundo Sprint. }}
+	\caption[Puntos comprometidos segundo Sprint]{Puntos comprometidos para el Segundo Sprint. }
 	\label{fig:S2} 
   \vspace{-4mm}
 \end{figure}
@@ -1208,7 +1221,7 @@ según la retroalimentación del cliente, dando como resultado la segunda iterac
 	\centering
 	\includegraphics[width=0.6\linewidth]{img/UX/s2-1.jpg}
 	\vspace{-1mm}
-	\caption[Segunda iteración del software]{\textit{Segunda iteración del software. }}
+	\caption[Segunda iteración del software]{Segunda iteración del software. }
 	\label{fig:S2-1} 
   \vspace{-4mm}
 \end{figure}
@@ -1226,7 +1239,7 @@ gráficas a favoritos y aplicar la paleta de colores institucionales al software
 	\centering
 	\includegraphics[width=0.4\linewidth]{img/Sprints/S3.png}
 	\vspace{-1mm}
-	\caption[Puntos comprometidos para el Tercer Sprint]{\textit{Puntos comprometidos para el Tercer Sprint}}
+	\caption[Puntos comprometidos para el Tercer Sprint]{Puntos comprometidos para el Tercer Sprint}
 	\label{fig:S3} 
 \end{figure}
 
@@ -1236,7 +1249,7 @@ En este Sprint se obtuvo la iteración final del software, la cual va a pasar a 
 	\centering
 	\includegraphics[width=0.8\linewidth]{img/UX/s3-1.png}
 	\vspace{-1mm}
-	\caption[Tercera iteración del software]{\textit{Tercera iteración del software. }}
+	\caption[Tercera iteración del software]{Tercera iteración del software. }
 	\label{fig:S3-1} 
   \vspace{-4mm}
 \end{figure}
@@ -1248,15 +1261,15 @@ Para el despliegue se empleó un archivo tipo \textit{bash}. El departamento de 
 de seguridad de este. El departamento de CTIC limitó el acceso al aplicativo, permitiendo solo tráfico que provenga de las redes LAN institucionales. 
 
 \vspace{0.3cm}
-En el apéndice \ref{APÉNDICE:D} se encuentra adjunto pruebas del aplicativo desplegado en el dominio \textit{sabib.bucaramanga.upb.edu.co}, demostración de sus funcionalidades y una prueba de conectividad realizada a los puertos 3000 (el cual corresponde al 
+En el apéndice \ref{APÉNDICE:A} se encuentra adjunto pruebas del aplicativo desplegado en el dominio \textit{sabib.bucaramanga.upb.edu.co}, demostración de sus funcionalidades y una prueba de conectividad realizada a los puertos 3000 (el cual corresponde al 
 servidor del \textit{backend}) y 443 (el cual corresponde al servidor del \textit{frontend}). Por otro lado,
-en el apéndice \ref{APÉNDICE:E} se encuentra la carta de entrega, firmada por los 
+en el apéndice \ref{APÉNDICE:A} se encuentra la carta de entrega, firmada por los 
 integrantes del equipo y jefatura de biblioteca.
 
 \vspace{0.3cm}
 Después de cierta cantidad de tiempo en donde el usuario interactuó con el sistema, se realizaron pruebas manuales para comprobar
-la eficacia, el nivel de responsive y los tiempos de respuesta del aplicativo. En el apéndice \ref{APÉNDICE:F} se plantean 
-las tarjetas de prueba para la eficacia, los tiempos de respuesta y el nivel de responsive. Por otro lado, en el apéndice \ref{APÉNDICE:G} se encuentran las tarjetas
+la eficacia, el nivel de responsive y los tiempos de respuesta del aplicativo. En el apéndice \ref{APÉNDICE:A} se plantean 
+las tarjetas de prueba para la eficacia, los tiempos de respuesta y el nivel de responsive. Por otro lado, en el apéndice \ref{APÉNDICE:A} se encuentran las tarjetas
 de aprendizaje, respectivamente. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1323,82 +1336,33 @@ Dentro de las recomendaciones que se realizan a partir del proyecto, se encuentr
 
 % APÉNDICES
 \newpage
-\addcontentsline{toc}{section}{APÉNDICES}
+\addcontentsline{toc}{section}{APÉNDICE A: RESULTADOS DEL PROYECTO}
 \begin{center}
 \textbf{APÉNDICES}
 \end{center}
 \appendix
 
 %%%%%%%%%%%%%APENDICE A
-\raggedright\textit{\textbf{APÉNDICE A} RESULTADOS DEL PRIMER OBJETIVO}
-\label{APÉNDICE:a}
+\vspace{-0.30cm}
+\begin{flushleft}
+\textit{\textbf{APÉNDICE A} RESULTADOS DEL PROYECTO}
+\end{flushleft}\label{APÉNDICE:A}
 
-A continuación, en las siguientes páginas, se encuentran los documentos que corresponden a las historias de usuario planteadas para el sistema, y la especificación de requerimientos. 
+
+\indent A continuación, en las siguientes páginas, se encuentran los documentos que corresponden a los resultados del proyecto.
 
 \includepdf[pages=-, fitpaper]{img/PDF/UX_STORIES_FINAL_v1.pdf}
 \includepdf[pages=-, fitpaper]{img/PDF/ESP_REQ_FINAL_OBJ1-1.pdf}
-
-
-%%%%%%%%%%%%%APENDICE B
-\raggedright\textit{\textbf{APÉNDICE B} RESULTADOS DEL SEGUNDO OBJETIVO}
-\label{APÉNDICE:B}
-
-A continuación, en las siguientes páginas, se encuentra el diseño de la interfaz de usuario, basándose en los requerimientos propuestos. 
-
 \includepdf[pages=-, fitpaper]{img/PDF/UX_DESIGN_OBJ2-1.pdf}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%APENDICE C
-\raggedright\textit{\textbf{APÉNDICE C} RESULTADOS DEL TERCER OBJETIVO}
-\label{APÉNDICE:C}
-
-En las siguientes páginas se encuentra la documentación referente a la estructura y comportamiento
-del aplicativo.  
-
 \includepdf[pages=-, fitpaper]{img/PDF/ESP_ARQ-1.pdf}
-
-%%%%%%%%%%%%%APENDICE D
-\raggedright\textit{\textbf{APÉNDICE D} RESULTADOS DEL CUARTO OBJETIVO}
-\label{APÉNDICE:D}
-
-A continuación, en las siguientes páginas, se encuentra el aplicativo final y una prueba de conectividad a los servidores donde se encuentra alojado, siguiendo lo planteado en la fase de planeación del proyecto, y las recomendaciones realizadas por los \textit{Stakeholders}. 
-
 \includepdf[pages=-, fitpaper]{img/PDF/RESULTADOS-SOFTWARE.pdf}
-
-
-%%%%%%%%%%%%%%%%%%CARTA
-\raggedright\textit{\textbf{APÉNDICE E} CARTA DE DESPLIEGUE}
-\label{APÉNDICE:E}
-
-A continuación, se encuentra la carta de despliegue del proyecto. 
-
 \includepdf[pages=-, fitpaper]{img/PDF/Carta-entrega-1.pdf}
-
-
-\raggedright\textit{\textbf{APÉNDICE F} TARJETAS DE PRUEBA}
-\label{APÉNDICE:F}
-
-A continuación, se encuentran las tarjetas de prueba del software.  
-
 \includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_Eficacia.pdf}
 \includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_TiemposRespuesta.pdf}
 \includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_Responsive.pdf}
-
-
-\raggedright\textit{\textbf{APÉNDICE G} TARJETAS DE APRENDIZAJE}
-\label{APÉNDICE:G}
-
-A continuación, se encuentran las tarjetas de aprendizaje del software.  
-
 \includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_Eficacia.pdf}
 \includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_TiemposRespuesta.pdf}
 \includepdf[pages=-, fitpaper]{img/PDF/Pruebas/Aprendizaje/TarjetaAprendizaje_responsive.pdf}
-
-\raggedright\textit{\textbf{APÉNDICE G} TARJETAS DE APRENDIZAJE}
-\label{APÉNDICE:G}
-
-A continuación, se encuentra la evaluación heurística diligenciada por el usuario final.  
-
-%%\includepdf[pages=-, fitpaper]{img/PDF/Evaluacion-Heuristica-llena.pdf}
-
+\includepdf[pages=-, fitpaper]{img/PDF/Evaluacion-Heuristica-llena.pdf}
 
 \end{document}
