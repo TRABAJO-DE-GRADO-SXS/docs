@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ieee_upb"] 1761674118.28522 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1761674128.51298 0
+["bibtex ieee_upb"] 1761752866.63943 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1761755655.86184 0
   "./bibliography.bib" 1755567804 14352 fbfe6b0a26f9a4799ade328ad4d6e845 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ieee_upb.aux" 1761674126 19047 7bf66133114ec2e8d9eb23bacc1f2e17 "pdflatex"
+  "ieee_upb.aux" 1761755653 18618 24cc1c0e06a7f521bb54dbf9e872eb57 "pdflatex"
   (generated)
   "ieee_upb.bbl"
   "ieee_upb.blg"
   (rewritten before read)
-["pdflatex"] 1761674118.65092 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1761674128.51382 0
+["pdflatex"] 1761755642.76979 "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1761755655.86352 0
   "C:/Users/Salis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756491445 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Salis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741374134 24225045 d15fcb033e839de986165c8859d0c485 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -164,15 +164,15 @@
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Salis/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1761674094 87393 803ede4c981b3e94e522970f1c536259 ""
-  "ieee_upb.aux" 1761674126 19047 7bf66133114ec2e8d9eb23bacc1f2e17 "pdflatex"
-  "ieee_upb.bbl" 1761674118 9721 84cb989f32114a9f5a555bc8136b65fb "bibtex ieee_upb"
+  "c:/UPB/08/trabajo grado/Dashboard/docs/Tesis-latex/ieee_upb.tex" 1761755641 85825 450c3ddedf87514900fcbbb339e7d83d ""
+  "ieee_upb.aux" 1761755653 18618 24cc1c0e06a7f521bb54dbf9e872eb57 "pdflatex"
+  "ieee_upb.bbl" 1761752866 9721 84cb989f32114a9f5a555bc8136b65fb "bibtex ieee_upb"
   "ieee_upb.cls" 1761673769 9690 5751b491f575948f92200675e89acb93 ""
-  "ieee_upb.lof" 1761674126 1690 2c58bc50af1ecc564b4dddb622dc7357 "pdflatex"
-  "ieee_upb.lot" 1761674126 347 5657476f0acc3383b2be1293350cb997 "pdflatex"
-  "ieee_upb.out" 1761674126 15495 7ccafde041fc45ef14859dc9fbd4b247 "pdflatex"
-  "ieee_upb.tex" 1761674094 87393 803ede4c981b3e94e522970f1c536259 ""
-  "ieee_upb.toc" 1761674126 7395 29bbeeec3ab4c4621a395f6ad0aaba67 "pdflatex"
+  "ieee_upb.lof" 1761755653 1690 2c58bc50af1ecc564b4dddb622dc7357 "pdflatex"
+  "ieee_upb.lot" 1761755653 347 5657476f0acc3383b2be1293350cb997 "pdflatex"
+  "ieee_upb.out" 1761755653 15637 a5c28d52aaa9bc0938976f6908520913 "pdflatex"
+  "ieee_upb.tex" 1761755641 85825 450c3ddedf87514900fcbbb339e7d83d ""
+  "ieee_upb.toc" 1761755653 7421 799e479461dd88d839b521b63dd7b487 "pdflatex"
   "img/Cronograma-ajustado-2.png" 1761672060 30016 b8212816259ba1eb252b409c210487e7 ""
   "img/Diagramas/dominio.png" 1755567804 71232 843353b54297a327fb29e3288a00040b ""
   "img/Diagramas/entidad-relacion.png" 1755567804 116258 a235540166c53a865b051c5a60c0faa6 ""
@@ -189,7 +189,7 @@
   "img/PDF/Pruebas/Aprendizaje/TarjetaPrueba_TiemposRespuesta.pdf" 1758946100 139891 d62c974d9735398ced174dd7c30eba67 ""
   "img/PDF/RESULTADOS-SOFTWARE.pdf" 1758945885 4307112 d4e011e24e9108e29071b8cd7786bc24 ""
   "img/PDF/UX_DESIGN_OBJ2-1.pdf" 1758945261 334738 2398ede6e1dca00e52cc3fbce70376ad ""
-  "img/PDF/UX_STORIES_FINAL_v1.pdf" 1758945579 418638 4f952655520faeb0e3e5a607357704a6 ""
+  "img/PDF/UX_STORIES_FINAL_v1.pdf" 1761751937 368083 784dcd4363513c65ed104fe508794d4c ""
   "img/Sprints/S1.png" 1761582119 13926 111124faab1825a454053d80046b826b ""
   "img/Sprints/S2.png" 1761582485 12218 0bb95408e67e64cbd34698d7cdb1d56c ""
   "img/Sprints/S3.png" 1761582485 10890 8b7eee4874e28d19826b940bc82cfd41 ""
